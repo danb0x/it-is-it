@@ -1,0 +1,165 @@
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, centered text, and padding */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Add hover effect to navigation links */
+nav a:hover {
+    color: #ccc;
+}
+
+/* Style the main content section */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style section headings */
+section h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Style section paragraphs */
+section p {
+    line-height: 1.6;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add a hover effect to footer links */
+footer a:hover {
+    color: #ccc;
+}
+/* Style the homepage section with a background color */
+section:nth-child(odd) {
+    background-color: #428873; /* Green */
+    color: #fff; /* White text */
+}
+
+/* Style the other sections with a different background color */
+section:nth-child(even) {
+    background-color: #3c9185; /* Blue */
+    color: #fff; /* White text */
+}
+
+/* Add hover effect to section backgrounds */
+section:hover {
+    background-color: #3c319e; /* Dark gray on hover */
+    transition: background-color 0.3s ease;
+}
+/* Стилі для посилань в футері (необов'язково) */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 480px;
+    width: 720px;
+    border: 3px solid #333;
+}
+/* Styles for the sliding contact form */
+.contact-slider {
+    position: fixed;
+    bottom: 0;
+    right: -30px; /* Initially hidden */
+    width: 350px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.5s ease;
+}
+
+.contact-content {
+    display: none;
+}
+
+.contact-content h2 {
+    margin-top: 0;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Styles for the button */
+#open-contact {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#open-contact:hover {
+    background-color: #f05600;
+}
+.carousele {
+    margin: 10px;
+    background-color: #38b6ff;
+}
+
+.carousele div img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
